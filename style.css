@@ -1,0 +1,88 @@
+body {
+  background-color: #F9F7F7;
+}
+
+main {
+  background-color: #F9F7F7;
+}
+
+#text-output {
+  min-height: 200px;
+  border-radius: 3px;
+  padding: 10px;
+  word-wrap: break-word;
+  text-align: left;
+  color: whitesmoke;
+}
+#bold {
+  font-weight: bold;
+}
+#italic {
+  font-style: italic;
+}
+#underline {
+  text-decoration: underline;
+}
+#text-input {
+  min-height: 200px;
+  text-align: left;
+  color: whitesmoke;
+}
+
+.editor .col {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#row1 {
+  background-color: #202222;
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(172, 172, 172);
+}
+button {
+  margin-bottom: 1rem;
+  margin-right: 7px;
+}
+h1 {
+  background-color: #E7EAE9;
+  margin: 0;
+  text-transform: uppercase;
+  animation: animate 10s ease-in-out infinite alternate-reverse forwards;
+}
+
+@keyframes animate {
+  0% , 100% {
+    color: green;
+    font-style: bold;
+    text-align: left;
+  }
+  25%, 75% {
+    color: blue;
+    font-style: italic;
+    text-align: center;
+  }
+  50% {
+    color: red;
+    font-style: normal;
+    text-align: right;
+    text-decoration: underline;
+  }
+}
+
+
+
+  
+  
